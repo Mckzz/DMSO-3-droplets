@@ -3,10 +3,7 @@ library(tidyverse)
 library(tidyr)
 library(dplyr)
 library(ggplot2)
-library(Hmisc)
-install.packages("Hmisc")
-install.packages("lmerTest")
-library(lme4)
+
 
 ######   wrangle raw data   ######
 rm(DMSOdrop)
